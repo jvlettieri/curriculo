@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de joão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">João</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#curriculum">Currículo</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Início -->
+    <section id="inicio">
+        <img src="C:\Users\prisc\OneDrive\Área de Trabalho\minha foto.jpg" alt="Imagem de Erika" class="perfil-img">
+        <h1>João</h1>
+        <p>jovem aprendiz</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/041_lettieri/?next=%2F" target="_blank">instagram</a>
+            <!-- Adicione mais ícones de redes sociais aqui -->
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Estou a procura de um emprego de jovem aprendiz na área de advocacia.</p>
+        <div class="columns">
+            <div class="column">
+                <h3>Dados Pessoais</h3>
+                <p>Nome: João Victor Lettieri</p>
+                <p>Idade: 15 anos</p>
+                <p>Localização: Cidade de Curitiba, Estado do Paraná</p>
+            </div>
+            <div class="column">
+                <h3>Interesses</h3>
+                <p><img src="images/interesse1.png" alt="Interesse 1"> Desenvolvimento de Software</p>
+                <p><img src="images/interesse2.png" alt="Interesse 2"> Design de UI/UX</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>tenho skills em algumas áreas da advocacia</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>Competências Técnicas</h3>
+                <div class="skill-bar">
+                    <span style="width: 80%;">Pesquisa Jurídica:Pouco conhecimento em legislação e jurisprudência, habilidade de análise e síntese.
+                        Redação Jurídica: pouco conhecimento na redação de documentos legais com precisão e adesão às normas.
+                        Procedimentos Legais: Conhecimento e experiência em preparação, arquivamento, e acompanhamento de processos judiciais.
+                        Softwares Jurídicos: Um conhecimento de ferramentas e softwares de gerenciamento de casos e pesquisa jurídica.
+                        </span>
+                </div>
+
+            <div class="column">
+                <h3>Competências Profissionais</h3>
+                <div class="skill-bar">
+                    <span style="width: 75%;">Capacidade de resolução de problemas</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 65%;">Conhecimentos de informática</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 55%;">Capacidade de aprender rápido</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 45%;">Comunicação efetiva</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 35%;">Autonomia</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 35%;">Adaptabilidade</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum">
+        <h2>Currículo</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>Estudos</h3>
+                <h4>1ºAno do ensino médio</h4>
+            </div>
+            <div class="column">
+                <h3>Experiência Profissional</h3>
+                <h4>Sem experiência ainda, mas  </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="gallery">
+            <img src="images/projeto1.jpg" alt="Projeto 1">
+            <img src="images/projeto2.jpg" alt="Projeto 2">
+            <!-- Adicione mais imagens de projetos aqui -->
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="enviar-formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <img src="images/mapa.jpg" alt="Mapa com endereço" class="mapa-img">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio">Voltar ao Início</a>
+        <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#skills">Skills</a>
+            <a href="#curriculum">Currículo</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </footer>
+</body>
+</html>
